@@ -1,0 +1,14 @@
+@relation student_data_cube
+
+@attribute gender {Female,Male}
+@attribute age_group {18-20,21-23,24-25}
+@attribute count numeric
+@attribute mean numeric
+
+@data
+Female,18-20,53,39.303774
+Female,21-23,65,37.678462
+Female,24-25,37,39.259459
+Male,18-20,49,36.785714
+Male,21-23,63,37.001587
+Male,24-25,33,33.154545
